@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='grok-cli',
-    version='0.1.0',
+    version='0.1.1',
     packages=find_packages(),
     install_requires=[
         'click',
@@ -17,8 +17,12 @@ setup(
             'grok_cli = grok_cli.cli:main',
         ],
     },
-    author='Your Name',
-    description='A CLI tool for interacting with xAI Grok 4',
+    author='Karan Vaidya - @KaranVaidya6 ',
+    contributors=[
+        'Dexter - @dehypokriet',
+        'Your Name',
+    ],
+    description='A CLI tool for interacting with xAI Grok Models',
     long_description=open('readme.md').read(),
     long_description_content_type='text/markdown',
 )
